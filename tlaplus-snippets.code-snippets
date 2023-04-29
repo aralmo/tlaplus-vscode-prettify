@@ -1,0 +1,55 @@
+// this is a snippets file (ctrl+shitf+p configure user snippets, new file)
+// prefix is what you write to show the snippet in the editor
+
+{
+	"or" : {
+		"scope": "tlaplus",
+		"prefix": "or",
+		"body": "\\/"
+	},
+	"and" : {
+		"scope": "tlaplus",
+		"prefix": "and",
+		"body": "/\\"
+	},	
+	"in" : {
+		"scope": "tlaplus",
+		"prefix": "in",
+		"body": "\\in"
+	},	
+	"existential quantification" : {
+		"scope": "tlaplus",
+		"prefix": "exists",
+		"body": "\\E"
+	},
+	"for all" : {
+		"scope": "tlaplus",
+		"prefix": "forall",
+		"body": "\\A"
+	},
+	"except" : {
+		"scope": "tlaplus",
+		"prefix": "except",
+		"body": "EXCEPT ![$1]"
+	},
+	"subset is" : {
+		"scope": "tlaplus",
+		"prefix": "subset",
+		"body": "\\subseteq"
+	},
+	"union" : {
+		"scope": "tlaplus",
+		"prefix": "union",
+		"body": "\\union"
+	},
+	"unchanged" : {
+		"scope": "tlaplus",
+		"prefix": "unchanged",
+		"body": "UNCHANGED <<$1>>"
+	},
+	"mapset" : {
+		"scope": "tlaplus",
+		"prefix": "mapset",
+		"body": "|->"
+	}
+}
